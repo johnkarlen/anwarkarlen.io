@@ -1,0 +1,23 @@
+name: "husna-anwar-personal-website"
+navbar:
+  title: "Husna Anwar & John Karlen Wedding"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Venue"
+      href: research.html
+    - text: "Lodging"
+      href: industry.html
+    - text: "Dining"
+      href: journalism.html
+  right: 
+    - icon: fa-envelope fa-lg
+      href: mailto:<anwar.husna@gmail.com>
+    - icon: fa-github fa-lg
+      href: http://github.com/husnaanwar/
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/husnaanwar/
+output:
+  html_document:
+    theme: journal
+    css: files/style.css
